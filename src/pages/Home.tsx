@@ -51,7 +51,7 @@ const Home = () => {
 
   return (
     <section className="py-12 px-6 lg:px-20">
-      <form className="flex flex-col lg:flex-row lg:justify-between mb-8 lg:mb-16 ">
+      <form className="flex flex-col gap-6 lg:flex-row lg:justify-between mb-8 lg:mb-16 ">
         <div
           className={`w-full max-w-[544px] h-14 flex items-center px-5 rounded-md shadow-md ${
             themeCtx?.darkMode ? "bg-[#2b3945]" : "bg-white"
